@@ -154,3 +154,5 @@ function myFunction(a, b) {
 // Calling the function
 const result = myFunction(5, 2);
 console.log(result);
+
+

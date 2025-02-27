@@ -20,6 +20,15 @@
 <p id="demo">Understanding undefined in JavaScript:
 
     In JavaScript, undefined is a primitive value that represents the absence of a value. It is automatically assigned to variables that have been declared but not initialized or assigned a value. This makes undefined a crucial concept for handling variables, functions, and object properties in JavaScript.</p>
+    
+    <button onclick="alert('Hello from inline JavaScript!')">Click Me</button>
+
+    <p id="demo"></p>
+    
+    <button onclick="document.getElementById('demo').innerHTML = Date()">The time is?</button>
+    
+    <a href="#" onclick="alert('You clicked a link!'); return false;">Click this link</a>
+
 <script>
     let x;
     if (x === undefined) {
@@ -28,6 +37,8 @@
       text = "x is defined";
     }
     document.getElementById("demo").innerHTML = text;
+    
     </script>
+    <script src="Script.js"></script>
     </body>
 </html>
